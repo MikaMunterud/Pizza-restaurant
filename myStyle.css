@@ -1,0 +1,276 @@
+body {
+  background-color: linen;
+  background-image: url("./img/margarita.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+  min-width: 400px;
+}
+
+header {
+  margin: 5px;
+  padding: 0px;
+  position: sticky;
+  width: calc(100% - 10px);
+  top: 10px;
+  background-color: rgb(99, 81, 63);
+  border-radius: 10px;
+  overflow: hidden;
+}
+header li h2 {
+  color: linen;
+  margin-top: 9px;
+  margin-bottom: 0px;
+  margin-inline: 15px;
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  border-bottom-right-radius: 15px;
+}
+.webPageBar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  align-self: center;
+}
+
+.webPageBar li {
+  float: left;
+}
+
+.webPageBar li a {
+  display: block;
+  color: linen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-bottom-right-radius: 15px;
+}
+
+.webPageBar li a:hover:not(.active) {
+  background-color: rgb(176, 155, 130);
+}
+.webPageBar .active {
+  background-color: rgb(55, 38, 21);
+}
+
+.frame40 {
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-left: 5px;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: left;
+  width: 40%;
+  border-radius: 5px;
+  color: rgb(37, 25, 13);
+  font-weight: bold;
+  position: static;
+}
+.frame40 div {
+  margin-bottom: 1rem;
+}
+
+.img-box {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 40%;
+  margin: 20px;
+  border-radius: 5px;
+  display: flex;
+  gap: 5px;
+}
+.pizza-img {
+  /* display: inline-block; */
+}
+
+.pizza-img img {
+  height: 200px;
+  border-radius: 5px;
+}
+
+.frame50 {
+  position: static;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-left: 5px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 50%;
+  border-radius: 5px;
+  color: rgb(37, 25, 13);
+  font-weight: bold;
+  display: static;
+}
+
+.choosePizzaLabel {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.choosePizza {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  color: rgb(37, 25, 13);
+  width: 143px;
+  height: 1.5rem;
+  margin: 10px 0px 15px 0px;
+  border: 0;
+  outline: 0;
+  padding: 0 8px;
+}
+.pizzaQuantity {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  color: rgb(37, 25, 13);
+  border: 0;
+  outline: 0;
+  padding: 0 8px;
+  width: 40px;
+  height: 1.5rem;
+  margin: 10px 0px 15px 0px;
+}
+.orderButton {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  color: rgb(37, 25, 13);
+  border: 0;
+  outline: 0;
+  padding: 0 8px;
+  width: 60px;
+  height: 1.5rem;
+  margin: 0px 0px 15px 0px;
+}
+
+.orderButton:active {
+  transform: translateY(1px);
+}
+
+section .pizzaMenu {
+  position: static;
+  padding: 0px;
+  width: 100%;
+}
+
+#thead1 {
+  text-align: left;
+  font-size: 24px;
+  width: 75%;
+}
+#thead2 {
+  text-align: right;
+  font-size: 24px;
+  width: 25%;
+}
+
+#pizza {
+  text-align: left;
+  padding-top: 10px;
+}
+
+#price {
+  text-align: right;
+}
+
+.ingredients {
+  text-align: left;
+  overflow: hidden;
+  margin: 0px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+.ingredients span {
+  font-size: 10px;
+  margin-left: 2px;
+  vertical-align: text-bottom;
+}
+
+.ingredientsList {
+  display: none;
+  position: static;
+  z-index: 1;
+  margin-left: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.ingredients:hover .ingredientsList {
+  display: block;
+}
+
+.pizzaIMG img {
+  border-radius: 5px;
+  width: 100%;
+  padding: 0px;
+}
+
+.frame40 ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.frame40 li {
+  margin: 5px 0px;
+  font-size: 18px;
+}
+
+.address h2 {
+  padding-left: 5px;
+}
+
+.address div {
+  margin: 5px 5px;
+  font-size: 16px;
+}
+
+section .location {
+  position: flex;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.locationMap {
+  border: 0px;
+  height: 300px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+#reservation input {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  color: rgb(37, 25, 13);
+  border-style: solid;
+  height: 1.5rem;
+  margin: 10px 0px 5px 0px;
+  border: 0;
+  outline: 0;
+  padding: 0 8px;
+  width: calc(100% / 2 - 24px);
+}
+
+#date,
+#time {
+  width: fit-content;
+}
+
+#amount {
+  width: 50px;
+}
+
+.formtextarea {
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  padding: 0 8px;
+  resize: none;
+  width: calc(100% - 24px);
+}
+
+.formbutton:active {
+  transform: translateY(1px);
+}

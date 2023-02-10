@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="styleSheet" href="myStyle.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forest Pizza</title>
+  </head>
+  <body>
+    <header>
+      <ul class="webPageBar">
+        <li><h2>Forest Pizza</h2></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="menu.html">Menu</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="booking.html">Book a table</a></li>
+      </ul>
+    </header>
+    
+    <main>
+      <section class="frame50">
+        <section>
+          <div>
+            <label class="choosePizzaLabel" for="choosePizza"
+              >Choose pizza:
+            </label>
+          </div>
+          <div>
+            <form action="/Uppgift_dag_1/menu.html" method="get">
+              <select class="choosePizza" id="choosePizza">
+                <option value="100">Margarita</option>
+                <option value="105">Funghi</option>
+                <option value="105">Vesuvio</option>
+                <option value="110">Capriccosa</option>
+                <option value="115">Hawaii</option>
+                <option value="120">Kebabpizza</option>
+                <option value="125">Napolitana</option>
+                <option value="130">Quatro Formagio</option>
+                <option value="130">Salami</option>
+                <option value="115">Opera</option>
+              </select>
+              <input
+                type="number"
+                class="pizzaQuantity"
+                placeholder="Qty"
+                min="1"
+                max="20"
+                required
+              />
+              <div>
+                <input type="submit" value="Order" class="orderButton" />
+              </div>
+            </form>
+          </div>
+        </section>
+        <section>
+          <table class="pizzaMenu">
+            <thead>
+              <tr>
+                <th id="thead1">Pizza</th>
+                <th id="thead2">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th id="pizza">Margarita</th>
+                <th id="price">100 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/margarita.jpg" alt="Margherita picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Funghi</th>
+                <th id="price">105 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/Funghi2.jpg" alt="Funghi picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Vesuvio</th>
+                <th id="price">105 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/vesuvio.jpg" alt="Vesuvio picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Capriccosa</th>
+                <th id="price">110 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/Capriccosa.jpg" alt="Capriccosa picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Hawaii</th>
+                <th id="price">115 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/hawaii.jpg" alt="Hawaii picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Kebab pizza</th>
+                <th id="price">120 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/kebab.jpg" alt="Kebab pizza picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Napolitana</th>
+                <th id="price">125 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/napolitana.jpg" alt="Napolitana picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Quatro Formagio</th>
+                <th id="price">130 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img
+                    src="img/QuatroFormagio3.jpg"
+                    alt="Quatro Formagio picture"
+                  />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Salami</th>
+                <th id="price">130 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/salami.jpg" alt="Salami picture" />
+                </th>
+              </tr>
+              <tr>
+                <th id="pizza">Opera</th>
+                <th id="price">115 SEK</th>
+              </tr>
+              <tr>
+                <th class="ingredients" colspan="2">
+                  <label>Ingredients<span>⤵</span> </label>
+                  <div class="ingredientsList">
+                    Flour, yeast, salt, olive oil, tomatoes, basil, garlic,
+                    mozzarella, parmesan.
+                  </div>
+                </th>
+              </tr>
+              <tr>
+                <th class="pizzaIMG" colspan="2">
+                  <img src="img/opera.webp" alt="Opera picture" />
+                </th>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+    </main>
+  </body>
+</html>

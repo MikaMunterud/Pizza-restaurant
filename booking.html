@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="styleSheet" href="myStyle.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forest Pizza</title>
+  </head>
+  <body>
+    <header>
+      <ul class="webPageBar">
+        <li><h2>Forest Pizza</h2></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a class="active" href="booking.html">Book a table</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="frame50">
+        <form id="reservation">
+          <div>
+            <h2>Table Reservation:</h2>
+          </div>
+          <div>
+            <label for="firstName"> Full Name </label>
+          </div>
+          <div>
+            <input
+              class="name"
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First name"
+              required
+            />
+
+            <input
+              class="name"
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Surname"
+              required
+            />
+          </div>
+          <div>
+            <input
+              class="forminput"
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Phone number"
+              required
+            />
+            <input
+              class="forminput"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="date">Date</label>
+          </div>
+          <div>
+            <input
+              class="forminput"
+              type="date"
+              name="date"
+              id="date"
+              placeholder="Date"
+              required
+            />
+          </div>
+          <div>
+            <label for="time">Time</label>
+          </div>
+
+          <div>
+            <input
+              class="forminput"
+              type="time"
+              name="time"
+              id="time"
+              placeholder="Time"
+              required
+            />
+          </div>
+          <div>
+            <label for="amount">Number of Attendees</label>
+          </div>
+          <div>
+            <input
+              class="forminput"
+              type="number"
+              name="amount"
+              id="amount"
+              placeholder="1-12"
+              min="1"
+              max="12"
+              required
+            />
+          </div>
+          <div>
+            <label for="comments">Comments (optional)</label>
+            <div>
+              <textarea
+                class="formtextarea"
+                name="comments"
+                id="comments"
+                rows="5"
+                placeholder="Any extra information..."
+              >
+              </textarea>
+            </div>
+          </div>
+          <div>
+            <input
+              class="formbutton"
+              type="reset"
+              name="reset"
+              id="reset"
+              value="Reset form"
+            />
+            <input
+              class="formbutton"
+              type="submit"
+              name="bookTable"
+              id="bookTable"
+              value="Submit"
+            />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
