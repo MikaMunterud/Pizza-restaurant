@@ -281,7 +281,7 @@ h2 {
   transform: translateY(1px);
 }
 
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .frame40,
   .frame50,
   .img-box {
@@ -289,7 +289,7 @@ h2 {
   }
 }
 
-@media (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   .frame40,
   .frame50,
   .img-box {
