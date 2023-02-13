@@ -68,6 +68,7 @@ header li h2 {
   font-weight: bold;
   position: static;
 }
+
 .frame40 div {
   margin-bottom: 1rem;
 }
@@ -102,6 +103,10 @@ header li h2 {
   color: rgb(37, 25, 13);
   font-weight: bold;
   display: static;
+
+  @media (max-width: 700px) {
+    width: 90%;
+  }
 }
 
 .choosePizzaLabel {
@@ -273,4 +278,20 @@ h2 {
 
 .formbutton:active {
   transform: translateY(1px);
+}
+
+@media (max-width: 1000px) {
+  .frame40,
+  .frame50,
+  .img-box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  .frame40,
+  .frame50,
+  .img-box {
+    width: 80%;
+  }
 }
